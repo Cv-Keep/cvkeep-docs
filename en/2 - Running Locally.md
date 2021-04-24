@@ -60,15 +60,18 @@ npm run serve
 # with a dedicated server application
 npm run serve:ssr
 
-# serve the front end in production mode 
-# using a dedicated server application
+# serve the front end server locally
+# using the .env.local. this is not to
+# be used on prod, its to simulate prod
+# locally
 npm run serve:prod
 
 # do a local build (need to run before serve:ssr)
+# ignoring the .env.production
 npm run build:local
 ``` 
 
-Obs: The serve:ssr, serve:prod and build:local are scripts related to deployment and SSR version of the code. They will be discussed in the step 3 of the docs.
+Obs: The serve:ssr, serve:prod and build:local are scripts related to the Front End SSR. They will be discussed in the step 3 of the docs.
 
 # You are up and running
 

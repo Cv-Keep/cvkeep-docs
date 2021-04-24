@@ -46,10 +46,10 @@ Now that you have your build, lets run the Front Server
 Run the following commands:
 
 ```bash
-# if you are in local mode
+# run the front server with the current .env
 npm run serve:ssr
 
-# if you are in prod mode
+# run the front server forcing the use of .env.local
 npm run serve:prod
 ``` 
 

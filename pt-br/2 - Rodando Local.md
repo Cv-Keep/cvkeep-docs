@@ -57,18 +57,20 @@ npm run lint
 npm run serve
 
 # serve o front end em modo SSR 
-# utilizando um server dedicado pro front
+# utilizando a .env de acordo com o mode
 npm run serve:ssr
 
 # serve o front em modo de produção 
-# utilizando um server dedicado pro front
+# porem utilizando a .env.local
+# vc nao deve usar esse script em prod,
+# ele existe para simular prod em modo local
 npm run serve:prod
 
 # faz uma build local (deve ser executado antes de um serve:ssr)
 npm run build:local
 ``` 
 
-Obs: Os scripts serve:ssr, serve:prod e build:local são para deployment e SSR modes. Eles serão melhor discutidos no passo 3.
+Obs: Os scripts serve:ssr, serve:prod e build:local são relacinados ao Front End SSR. Eles serão melhor discutidos no passo 3.
 
 # Temos tudo rodando
 
