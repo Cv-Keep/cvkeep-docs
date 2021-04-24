@@ -167,4 +167,4 @@ The plaform references a file "/seo/card.png", which is the card image that will
 
 # Thats all
 
-This is all the setup you need. Now you are ready to run the project. Please go to the step 2.
+Thats all the setup you need. Now you are ready to run the project. Please go to the step 2.

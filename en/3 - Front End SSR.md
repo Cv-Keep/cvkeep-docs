@@ -53,4 +53,4 @@ npm run serve:ssr
 npm run serve:prod
 ``` 
 
-Thats all, if you are running with default config in local mode, you can navigate to `http://localhost:9090` and you will see the front end being served. This is specially useful to debug problems that are happening in production.
+Thats all, if you are running with default config in local mode, you can navigate to `http://localhost:9090` and you'll see the front end being served. This is specially useful to debug problems that are happening in production.
