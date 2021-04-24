@@ -152,8 +152,8 @@ VUE_APP_LINKEDIN_API_KEY=""
 # and e-mail, will go to this address
 VUE_APP_CONTACT_EMAIL="contact@email.com"
 
-# Here as configurations related to the Front End Server
-# and SSR, we gonna know more about on the file 5. Leave
+# Here are the configurations related to the Front End Server
+# and SSR, we gonna know more about on the step 3. Leave
 # it as it is for now, we'll come back here later
 FRONT_SERVER_PORT=9090
 FRONT_SERVER_APP_URL="http://localhost:9090"
@@ -163,7 +163,7 @@ SEO_TWITTER_USER="username"
 
 # SEO Card
 
-The plaform references a file "/seo/card.png", which is the card image that will appear when you are sharing the page on the internet. This field doesnt exists by default, you will need to create it on "/cvkeep-frontend/public/seo/" and name it "card.png". The image must have `1200 x 665` pixels and must be a PNG.
+The plaform references a file "/seo/card.png", which is the card image that will appear when you are sharing the page on the internet. This file doesnt exists by default, you will need to create it on "/cvkeep-frontend/public/seo/" and name it "card.png". The image must have `1200 x 665` pixels and must be a PNG.
 
 # Thats all
 

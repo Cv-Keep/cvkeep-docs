@@ -22,6 +22,9 @@ FRONT_SERVER_APP_URL="http://localhost:9090"
 
 # Where is the SEO card PNG file (URL)
 SEO_CARD_IMAGE_URL="http://localhost:9090/seo/card.png"
+
+# Your application twitter user
+SEO_TWITTER_USER="username"
 ```
 
 Since you have configured this entries, you must assure that you have a build on your application root dir. You will see a `dist` folder on the root dir. If there is no dist, you must run:
