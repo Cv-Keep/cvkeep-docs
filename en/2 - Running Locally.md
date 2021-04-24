@@ -68,7 +68,7 @@ npm run serve:prod
 npm run build:local
 ``` 
 
-Obs: The serve:ssr, serve:prod and build:local are scripts related to deployment and SSR version of the code. They will be discussed in the step 5 of the docs.
+Obs: The serve:ssr, serve:prod and build:local are scripts related to deployment and SSR version of the code. They will be discussed in the step 3 of the docs.
 
 # You are up and running
 

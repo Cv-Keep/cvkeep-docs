@@ -1,4 +1,4 @@
-# Wellcome (EN)
+# Welcome (EN)
 
 Wellcome to CV Keep docs. I suppose that you are here because you are curious, want to develop/contribute with Cv Keep Source Code, want to host your own CV Plaform, or all of this together. CV Keep is a Free and Open Source Platform intended to manage Online Resumés. Its free, pretty and simple. The idea is to deal with your resumé as an online profile. Instead of send resumé files, you send a resume link. Its perfect if you dont want to keep updating things when adding new information on your resume or dont want to deal with an entire social network. It offers a responsive, multi-device, quick and easy to maintain and update online resume.
 
