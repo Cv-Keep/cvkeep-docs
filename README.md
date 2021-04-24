@@ -6,7 +6,7 @@ Once Keep CV is free and open source you can host your own plaform also (Since y
 
 On this repository you will find all the documentation to run, develop, contribute and deploy the CV Keep project. The documentation can be found in `en` and `pt-br` (as the entire plaform). If you have any considerations or doubts, please send an e-mail to: `felippe.moraes@zoho.com`.
 
-# Bem Vindo (PT)
+# Bem Vindo (PT-BR)
 
 Bem vindo a documentação da CV Keep. Suponho que vc está aqui porque vc tem curiosidade, quer desenvolver ou contribuir com o código, quer hospedar sua própria plataforma de CV's ou tudo isso junto. CV Keep é uma plataforma livre e de código aberto feita para mantenimento e gerencialmento de multiplos curriculums. É perfeita se vc não gosta de ficar editando um monte de coisas pra manter um currículo atualizado ou se você não quer lidar com redes sociais só para manter um CV online. A plataforma oferece um currículo online responsivo, multi-device, rápido e fácil de manter e atualizar.
 
