@@ -82,6 +82,12 @@ SOCIAL_AUTH_GITHUB_CLIENT_SECRET=""
 SOCIAL_AUTH_LINKEDIN_CLIENT_ID=""
 SOCIAL_AUTH_LINKEDIN_CLIENT_SECRET=""
 
+# Aqui vc configura suas keys RSA (Private e Public), para
+# coisas como JWT e criptografia. Vc DEVE criar chaves novas
+# e exclusivas para "prod" afim de manter seu app seguro
+RSA_PUBLIC_KEY="functions/jwt/rsa/public.key"
+RSA_PRIVATE_KEY="functions/jwt/rsa/private.key"
+
 # Esta string é utilizada em alguns processos de
 # criptografia. Ela não deve ser publica e é recomendado
 # que tenha ao menos 450 caracteres random.
@@ -149,6 +155,17 @@ VUE_APP_LINKEDIN_API_KEY=""
 # Este é o seu email para contato. Quando um usuário envia
 # um email, ele será enviado para este endereço
 VUE_APP_CONTACT_EMAIL="contact@email.com"
+
+# Se vc utilizará essa plataforma para subir um serviço
+# gratuito e deseja receber doações por isso, vc pode
+# configurar cada uma dessas chaves com, respectivamente,
+# sua URL para doação via PayPal, sua chave PIX e seu
+# Bitcoin address. Vc pode preencher apenas os que estiverem
+# disponiveis para vc. Caso nao preencha nenhum, a sessão
+# de doação não será exibida no app
+VUE_APP_DONATION_PAYPAL_URL=""
+VUE_APP_DONATION_PIX_KEY=""
+VUE_APP_DONATION_BITCOIN=""
 
 # Estas são configurações relacionadas ao server front end,
 # veremos mais sobre elas no passo 3

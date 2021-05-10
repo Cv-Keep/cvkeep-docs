@@ -82,6 +82,12 @@ SOCIAL_AUTH_GITHUB_CLIENT_SECRET=""
 SOCIAL_AUTH_LINKEDIN_CLIENT_ID=""
 SOCIAL_AUTH_LINKEDIN_CLIENT_SECRET=""
 
+# Here you configure yoru Public and Private RSA Keys,
+# for things such JWT signing and crypt. you MUST change
+# this keys (create new ones) when deploying your apps.
+RSA_PUBLIC_KEY="functions/jwt/rsa/public.key"
+RSA_PRIVATE_KEY="functions/jwt/rsa/private.key"
+
 # The App Secret must be a random hash string,
 # it will be used for some encryption processes.
 # YOU MUST change it on production. try to use
@@ -151,6 +157,15 @@ VUE_APP_LINKEDIN_API_KEY=""
 # This will be your contact e-mails. When a user sends
 # and e-mail, will go to this address
 VUE_APP_CONTACT_EMAIL="contact@email.com"
+
+# Those are each URL for configure donation on your plaform.
+# If you are a free platform and want to ask for a coffee on
+# the homepage, here you will configure your Paypal donaton
+# URL, a pix key and a bitcoin address. Leave all the fields
+# empty to not show the donation section on the homepage
+VUE_APP_DONATION_PAYPAL_URL=""
+VUE_APP_DONATION_PIX_KEY=""
+VUE_APP_DONATION_BITCOIN=""
 
 # Here are the configurations related to the Front End Server
 # and SSR, we gonna know more about on the step 3. Leave
