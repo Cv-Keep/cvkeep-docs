@@ -38,7 +38,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         title: 'Cv Keep',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         }
       },
       footer: {

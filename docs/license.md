@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # License
 
 Copyright (c) 2021 CV Keep
