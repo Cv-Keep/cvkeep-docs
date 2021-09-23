@@ -8,7 +8,7 @@ CV Keep Uses a simple MEVN stack, which stands for Mongo, Express, Vue and Node.
 
 ### Environment
 
-You just need Node JS and Mongo DB. Thats all. For Mongo, create a new database with your prefered name, then provide its Mongo URI to the app environment configuration using and ENV file. The SMTP Server is need only in production mode. The reference for the configuration is in the next chapter. 
+You just need Node JS and Mongo DB. Thats all. For Mongo, create a new database with your prefered name, then provide its Mongo URI to the app environment configuration using the ENV file. The SMTP Server is needed only in production mode. The reference for the project setup is in the next chapter. 
 
 |Required|Description|
 |---|---|
