@@ -19,7 +19,7 @@ To run your project locally or in production, you will need to set a .env file b
 
 ### The .Env Vars
 
-The **cvkeep-backend** environment variables described on every .env are:
+The **cvkeep-backend** environment variables are:
 
 |Name|Description|Default|Required|
 |---|---|---|---|
