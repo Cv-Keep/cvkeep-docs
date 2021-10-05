@@ -13,6 +13,7 @@ You just need Node JS and Mongo DB. Thats all. For Mongo, create a new database 
 |Required|Description|
 |---|---|
 |Node JS| Version >=14.0.0|
+|NPM|Version >= 6.14.13|
 |Mongo| Version >=4.4.5|
 |SMTP|Any SMTP Service (Only for production)|
 
