@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'CvKeep Docs',
   tagline: 'Cv Keep Project Documentation',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://cvkeep.github.io/cvkee-docs',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -22,7 +22,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/Cv-Keep/cvkeep-docs/edit/master/docs/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
