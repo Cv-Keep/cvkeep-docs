@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'CvKeep Docs',
   tagline: 'Cv Keep Project Documentation',
-  url: 'https://cvkeep.github.io/cvkee-docs',
-  baseUrl: '/',
+  url: 'https://cvkeep.github.io/',
+  baseUrl: '/cvkeep-docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'cvkeep',
+  organizationName: 'Cv-Keep',
   projectName: 'cvkeep-docs',
   trailingSlash: false,
 
