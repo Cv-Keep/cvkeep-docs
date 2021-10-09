@@ -30,6 +30,7 @@ The **cvkeep-frontend** environment variables are:
 |VUE_APP_SW_ENABLE|Tells to the vue build to use of not the an application service worker to manage and cache the client app|false|true|
 |FRONT_PROD_SERVER_PORT|The port to serve your front end by express (not the vue server port, not the static files por of your server). This defines only the port that the front end express application will use to deliver your builded app|9090|true|
 |FRONT_PROD_SERVER_SEO_CARD_URL|Must be a complete URI pointing to a PNG file that will be user as card cover for SEO/link preview|http://localhost:9090/seo/card.png|true|
+|FRONT_PROD_SERVER_FORCE_HTTPS|Redirect front matter `http` connections to `https`. Recommended to set this to true on production mode|false|
 
 ### The Front End Server
 
