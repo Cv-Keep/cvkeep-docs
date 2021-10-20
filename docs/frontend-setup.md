@@ -28,9 +28,16 @@ The **cvkeep-frontend** environment variables are:
 |VUE_APP_DONATION_BITCOIN|Fill this env only if you want to ask for donations for your app|""|false|
 |VUE_APP_TWITTER_USERNAME|Your app twitter account username, used by the front end express server SEO injection|username|true|
 |VUE_APP_SW_ENABLE|Tells to the vue build to use of not the an application service worker to manage and cache the client app|false|true|
+|VUE_APP_JWT_LOCAL_STORAGE|Decide if must save the JWT Token on local storage despite the Http Signed Cookie|true|false| 
 |FRONT_PROD_SERVER_PORT|The port to serve your front end by express (not the vue server port, not the static files por of your server). This defines only the port that the front end express application will use to deliver your builded app|9090|true|
 |FRONT_PROD_SERVER_SEO_CARD_URL|Must be a complete URI pointing to a PNG file that will be user as card cover for SEO/link preview|http://localhost:9090/seo/card.png|true|
 |FRONT_PROD_SERVER_FORCE_HTTPS|Redirect front matter `http` connections to `https`. Recommended to set this to true on production mode|false|
+
+### The JWT Token
+
+The JWT Token is stored on the Browser using an HTTP Signed Cookie by default. But, since the backend is a separated project from the front end, it can be running in completely different host and domain. If the CV Keep API are bering served under a different URI of the Front Matter, this Cookie will be threated as a "Thirdy Party Cookie" by the browser.
+
+Some modern browsers are blocking thirdy party users unless the user gives an explicity permission. In this case, the login wont be possible. The solution is to use the local storage an a fallback method of cookie storage. Unfortunatelly the local storage is not as secure as the cookie due XSS attack risky. If you are using this method because your API hosting method requires thirdy party cookies to be setted on the front end, keep all your dependencies up to date and your editable content sanitazed and you will be fine. 
 
 ### The Front End Server
 
