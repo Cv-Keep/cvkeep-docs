@@ -39,6 +39,8 @@ The JWT Token is stored on the Browser using an HTTP Signed Cookie by default. B
 
 Some modern browsers are blocking thirdy party users unless the user gives an explicity permission. In this case, the login wont be possible. The solution is to use the local storage an a fallback method of cookie storage. Unfortunatelly the local storage is not as secure as the cookie due XSS attack risky. If you are using this method because your API hosting method requires thirdy party cookies to be setted on the front end, keep all your dependencies up to date and your editable content sanitazed and you will be fine. 
 
+If you doesn't care about "Thirdy Party Cookies" fallback, or if you are hosting the API under the same address of the front end, you must set the `VUE_APP_JWT_LOCAL_STORAGE` env to "false" with no harm to the login and user session management process.
+
 ### The Front End Server
 
 We use an Express Server to serve the front end application. You dont need this server when running the app locally, but you will probably need it to serve your production app. Also, this server is responsible to render each page SEO metatags. There is no setup to do about the front end server itself, you will see how to start it at the next section: Running Locally.
