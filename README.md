@@ -2,8 +2,8 @@
 
 This is the application docs source code for the CV Keep platform technical documentation. CV Keep is a free and open source CV platform. Here you will find useful information about what is the CV Keep App, Stack, how to running locally, deploy and evolve the app.
 
-This doc content is available here:
-cv-keep.github.io/cvkeep-docs/
+This doc content is available here:  
+[cv-keep.github.io/cvkeep-docs/](cv-keep.github.io/cvkeep-docs/)
 
 # Building Docs
 
