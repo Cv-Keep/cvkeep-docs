@@ -8,7 +8,7 @@ First of all, lets assume you have cloned or downloaded both the applications: *
 
 ### Backend
 
-Lets start running the API. First of all, go to the `cvkeep-backend` project root. Now, copy the `.env` file content to a `.env.local` file, and change the env variables in according to your needings. To check how to configure the .env, please, read the [Backend Setup](/backend-setup) section of this documentation. Generally for the local mode you only need to configure your Mongo URI on the `.env.local` file. Now, if you didn't installed the dependencies, please run:
+Lets start running the API. First of all, go to the `cvkeep-backend` project root. Now, copy the `.env` file content to a `.env.local` file, and change the env variables according to your needs. To check how to configure the .env, please, read the [Backend Setup](/backend-setup) section of this documentation. Generally for the local mode you only need to configure your Mongo URI on the `.env.local` file. Now, if you didn't installed the dependencies, please run:
 
 ```bash
 npm install
@@ -31,7 +31,7 @@ With the default env values, your API will be available on: http://localhost:500
 
 ### Front End
 
-To run the front end, first copy the `.env` file content to a `.env.local` file, and change the env variables in according to your needings. Now, if you didn't installed the dependencies, please run:
+To run the front end, first copy the `.env` file content to a `.env.local` file, and change the env variables according to your needs. Now, if you didn't installed the dependencies, please run:
 
 ```bash
 npm install
@@ -58,7 +58,7 @@ With the default env values, the front end will be available on: http://localhos
 
 ### Front End Server
 
-There is an Express Application meant to serve the front end. This is optional when in local mode, but can be very useful for debbuging. To run the front server, just run:
+There is an Express Application meant to serve the front end. This is optional when in local mode, but can be very useful for debugging. To run the front server, just run:
 
 ```bash
 npm run serve:prod
