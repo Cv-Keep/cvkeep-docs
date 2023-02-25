@@ -33,4 +33,4 @@ If everything went well, you will have a new Express Server for you CV Keep Fron
 
 ### The Server Ports
 
-Some hosts (like Heroku for example) do manage the Node Applications Ports automatically. In this case you must ommit the "PORT" ENV var for the Backend configuration, and the "FRONT_PROD_SERVER_PORT" or "PORT" ENV var for the Frontend configuration.
+Some hosts (like Heroku for example) do manage the Node Applications Ports automatically. In this case you must omit the "PORT" ENV var for the Backend configuration, and the "FRONT_PROD_SERVER_PORT" or "PORT" ENV var for the Frontend configuration.

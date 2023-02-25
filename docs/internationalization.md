@@ -4,11 +4,11 @@ sidebar_position: 8
 
 # Internationalization
 
-CV Keep is already internationalized. The application is available in PT-BR and EN, but you may want to extend the i18n options and add new languages. In this case, first lets see how the i18n is implementend on each project.
+CV Keep is already internationalized. The application is available in PT-BR and EN, but you may want to extend the i18n options and add new languages. In this case, first lets see how the i18n is implemented on each project.
 
 ### Frontend
 
-The Frontend uses the `vue-i18n` package to manage its i18n options, and uses 2 strategies to internationalize the application: global locale files and built-in i18n information for each component. This is made this way because components are lazy loaded on the pages, so a single locale json file would become huge with all the application translated texts and would never be fully used, ending up in unecessary network payload.
+The Frontend uses the `vue-i18n` package to manage its i18n options, and uses 2 strategies to internationalize the application: global locale files and built-in i18n information for each component. This is made this way because components are lazy loaded on the pages, so a single locale json file would become huge with all the application translated texts and would never be fully used, ending up in unnecessary network payload.
 
 The i18n global messages are stored on the folder `/src/shared/i18n-messages` folder. For the components, each one that needs its scoped translations has a `i18n.messages` object on its `script` layer, this way the translation payload is only loaded if the component has been loaded, lightening the network payload and the application cold start.
 
@@ -27,7 +27,7 @@ If you want to change something about the default i18n behavior, you must consid
 
 All the messages and emails that the API returns or send are translated directly on the backend, then delivered. An `i18n Express Middleware` was created specially to do it, you can check all the documentation for the i18n Middleware and its behavior on this link: https://github.com/felippe-regazio/express-rest-i18n. 
 
-So, there is no backend messages on the frontend translations, and the backend doesnt send any translation key to the front end, the front and back internationalization are completely separated concerns. To specify to the API which language you want the responses, just set an `application-language` Header on your requests, the API will use this header to define the response locale. The Cv Keep Frontend will automatically handle this header for your when making requests to the API.
+So, there is no backend messages on the frontend translations, and the backend doesn't send any translation key to the front end, the front and back internationalization are completely separated concerns. To specify to the API which language you want the responses, just set an `application-language` Header on your requests, the API will use this header to define the response locale. The Cv Keep Frontend will automatically handle this header for your when making requests to the API.
 
 If you plan to change how the i18n works for the backend, or change the messages you must take a look on the root folder `/i18n`. For deeper modifications you will need to change the `i18n Express Middleware`.
 
@@ -117,7 +117,7 @@ i18n: {
 </ul>
 ``` 
 
-Dont forget to add the word "spanish" to the `i18n` object of the LangMenu component. After that 5 steps, you will be added a new language to CV Keep FrontEnd.
+Don't forget to add the word "spanish" to the `i18n` object of the LangMenu component. After that 5 steps, you will be added a new language to CV Keep FrontEnd.
 
 ### Backend
 

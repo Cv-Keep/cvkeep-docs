@@ -19,10 +19,10 @@ furnished to do so, subject to the following conditions:
 1. The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-2. You are free to derivate any kind of use from this sofware without any legal
-responsability or royalties which CV Keep.
+2. You are free to derivate any kind of use from this software without any legal
+responsibility or royalties which CV Keep.
 
-3. The CV Keep team are not responsible for any kind of thirdy-part use of this
+3. The CV Keep team are not responsible for any kind of third-part use of this
 software.
 
 4. When derivating your own software from this one, you must NOT user the same
